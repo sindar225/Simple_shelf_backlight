@@ -3,6 +3,8 @@ Simple shelf backlight
 
 The idea behind this project is to create a compact proximity sensor which would turn backlight on and what's more important to run on 9v battery for a long period of time. For this purpose low power mode has been enabled. Although it might have been running in more efficient power saving mode, I deliberately picked PowerSave mode as being a trade-off between power consumption and PWM (for smooth LED start).
 
+<span style="color:red">NOTE: To reduce the current draw I unsoldered PWR LED on Arduino and both LEDs on IR sensor.</span>
+
 More about power saving modes here: https://www.rocketscream.com/blog/2011/07/04/lightweight-low-power-arduino-library/
 
 Demo:
